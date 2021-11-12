@@ -11,7 +11,6 @@ Summary:
 
 - Displays episode image, title, season number, episode number, and description
 
-=========================================================================================
 
 # **HOW TO RUN**
 

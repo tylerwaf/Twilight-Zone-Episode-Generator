@@ -1,6 +1,6 @@
 # Twilight-Zone-Episode-Generator
 
-Summary
+Summary:
 
 
   I love the television show "The Twilight Zone". After watching every episode multiple times(and liking almost all of them), it became hard to choose which episode I wanted to watch. I wrote a program to help me decide. 

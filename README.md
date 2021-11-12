@@ -19,6 +19,6 @@ This program cannot be hosted through github pages as it uses the OMDB API. This
 1. Download the files
 2. Go to http://www.omdbapi.com/ and click on api key in the navigation bar
 3. Follow the steps on the api key page to receive your api key
-4. Go to the project folder open the scripts.js file
+4. Go to the project folder and open the scripts.js file
 5. Replace the api key with your unique key
 6. Launch the program

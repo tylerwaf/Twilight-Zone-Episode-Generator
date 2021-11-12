@@ -13,7 +13,7 @@ Summary:
 
 =========================================================================================
 
-**#HOW TO RUN**
+# **HOW TO RUN**
 
 This program cannot be hosted through github pages as it uses the OMDB API. This particular api requires an individual api key
 

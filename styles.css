@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #c9ccd5;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  padding: 35px;
+  font-family: 'Yuji Syuku', serif;
+}
+
+.header #headerText {
+  padding-bottom: 12px;
+}
+
+.header #serling {
+  position: absolute;
+  top: 711px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.descField {
+  background-color: #a6a9b6;
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 120px;
+  padding-top: 35px;
+  padding-bottom: 400px;
+  padding-right: 120px;
+  padding-left: 120px;
+  font-family: 'PT Serif', serif;
+}
+
+.descField .results {
+  background-color: #a6a9b6;
+  padding-top: 10px;
+}
+
+.descField #generateBtn {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fbf7f0;
+}
+
+.descField #generateBtn:hover {
+  opacity: 0.8;
+}
+
+.descField #poster {
+  border-radius: 10px;
+}

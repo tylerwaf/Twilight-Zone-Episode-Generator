@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twilight Zone Episode Picker</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Zen+Kurenaido&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="headerText">Welcome to the Twilight Zone Episode Picker!</h1>
+      <h4>Click the button for a random episode choice!</h4>
+      <img
+        src="./Images/the-twilight-zone-400x225.png"
+        alt="rod serling"
+        id="serling"
+      />
+    </div>
+
+    <div class="descField">
+      <button id="generateBtn">Generate Episode</button>
+      <div class="results">
+        <img src="" alt="" id="poster" />
+        <div id="title" class="results"></div>
+        <div id="season" class="results"></div>
+        <div id="episode" class="results"></div>
+        <div id="plot" class="results"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts.js"></script>
+    <script src="./episodes.js"></script>
+  </body>
+</html>
